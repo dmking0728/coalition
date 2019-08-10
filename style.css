@@ -1,0 +1,181 @@
+body {
+  height: 100%;
+}
+
+.top-bar {
+  background: orange;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.top-bar p, a{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #be3600;
+  align-items: center;
+  padding: 7px;
+  float: left;
+  align-items: center;
+}
+
+.top-bar .white {
+  color: white !important;
+  align-items: center;
+}
+
+.login {
+  float: right;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  background: transparent;
+}
+
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+
+ul li a{
+  display: block;
+  width: 100%
+  padding: 18px 45px;
+  color: #333;
+  text-decoration: none !important;
+}
+
+ul li a:hover{
+  color: black;
+  
+}
+ul li ul.dropdown{
+  width: 130px; /* Set width of the dropdown */
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+  display: none;
+  position: absolute;
+  top: 38px;
+  z-index: 999;
+  left: -50PX;
+}
+
+ul li:hover ul.dropdown{
+  display: block; /* Display the dropdown */
+}
+
+ul li ul.dropdown li{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: grey;
+}
+
+ul li ul.dropdown li a{
+  
+  color: grey;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand h1 {
+  letter-spacing: 2px;
+  color: black;
+}
+
+#logo-orange {
+  color: #ed5c02;
+}
+
+.navbar .nav-link {
+  color: black !important;
+}
+
+.file-tree {
+  display: inline-block;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.file-tree a {
+  color: #aaaaaa;
+}
+
+.file-tree #contact {
+  color: black;
+}
+
+.page-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ed5c02;
+}
+
+.entry-content p {
+  color: grey;
+  margin-bottom: 80px;
+}
+
+.contact-reach h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #ed5c02;
+  padding-bottom: 20px;
+  border-bottom: black solid 7px
+}
+
+form input,textarea {
+  margin-bottom: 10px;
+}
+
+form #submit {
+  background-color: #ed5c02;
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 700;
+  padding: 10px 25px;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+.reach-us p {
+  margin-bottom: 0;
+  color: #595959;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.fab {
+  color: #d2d2d2;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-facebook-square {
+  color: black !important;
+}
+
+.reach-us {
+  padding-left: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .reach-us {
+    padding-left: 15px;
+  }
+}
